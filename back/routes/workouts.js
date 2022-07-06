@@ -20,7 +20,7 @@ Router.get("/:id", getWorkout);
 Router.post("/", createWorkout);
 
 //DELETE a workout
-Router.delete("/", deleteWorkout);
+Router.delete("/:id", deleteWorkout);
 
 //UPDATE a  workout
 Router.patch("/", updateWorkout);

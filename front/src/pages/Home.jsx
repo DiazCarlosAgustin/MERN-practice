@@ -17,7 +17,6 @@ export default function Home() {
 		};
 		fetchWorkouts();
 	}, [dispatch]);
-	console.log(workouts);
 	return (
 		<div className="home">
 			<div className="workouts">
